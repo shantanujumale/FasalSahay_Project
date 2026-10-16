@@ -1,0 +1,89 @@
+{
+  "model": "TF-IDF + LogisticRegression baseline",
+  "created_at_utc": "2026-10-14T09:13:59.888907+00:00",
+  "rows": 32,
+  "train_rows": 24,
+  "test_rows": 8,
+  "accuracy": 1.0,
+  "macro_f1": 1.0,
+  "labels": [
+    "localized",
+    "post_harvest",
+    "prevented_sowing",
+    "widespread_yield_loss"
+  ],
+  "class_counts": {
+    "localized": 8,
+    "post_harvest": 8,
+    "prevented_sowing": 8,
+    "widespread_yield_loss": 8
+  },
+  "classification_report": {
+    "localized": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "post_harvest": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "prevented_sowing": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "widespread_yield_loss": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 8.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 8.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "test_size": 0.25,
+  "random_state": 42,
+  "disclaimer": "Results only measure this supplied dataset. Requires representative, expert-reviewed data and external validation. Never use for eligibility or compensation decisions."
+}
